@@ -72,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB176B7F18B1E70400FE83FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB1B0B9E18B1CC9600B2528E /* MyLibrary.h */,
+				EB1B0B9F18B1CC9600B2528E /* MyLibrary.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		EB1B0B5F18B1A94000B2528E = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +114,7 @@
 		EB1B0B7118B1A94000B2528E /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				EB1B0B9E18B1CC9600B2528E /* MyLibrary.h */,
-				EB1B0B9F18B1CC9600B2528E /* MyLibrary.m */,
+				EB176B7F18B1E70400FE83FD /* Classes */,
 				EB1B0B7D18B1A94000B2528E /* Images.xcassets */,
 				EB1B0B7218B1A94000B2528E /* Supporting Files */,
 			);
