@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage      = 'https://github.com/mattt/TTTAttributedLabel/'
   s.author        = { "kwakata" => "kwakata@sonix.asia" }
   s.source        = { :git => "https://github.com/kzhkwkt/MyLibrary.git", :tag => "#{s.version}"}
-  s.source_files  = 'MyLibrary/Classes/MyLibrary.m'
+  s.source_files  = 'MyLibrary/Classes'
   s.exclude_files = 'Classes/Exclude'
   s.license       = 'MIT'
 end
