@@ -110,12 +110,11 @@
 		EB1B0B7118B1A94000B2528E /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				EB1B0B9D18B1CA8800B2528E /* Classes */,
 				EB1B0B7A18B1A94000B2528E /* AppDelegate.h */,
 				EB1B0B7B18B1A94000B2528E /* AppDelegate.m */,
 				EB1B0B7D18B1A94000B2528E /* Images.xcassets */,
 				EB1B0B7218B1A94000B2528E /* Supporting Files */,
-				EB1B0B9A18B1ABE300B2528E /* MyLibrary.h */,
-				EB1B0B9B18B1ABE300B2528E /* MyLibrary.m */,
 			);
 			path = MyLibrary;
 			sourceTree = "<group>";
@@ -147,6 +146,15 @@
 				EB1B0B8D18B1A94000B2528E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB1B0B9D18B1CA8800B2528E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB1B0B9A18B1ABE300B2528E /* MyLibrary.h */,
+				EB1B0B9B18B1ABE300B2528E /* MyLibrary.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,6 +457,7 @@
 				EB1B0B9618B1A94000B2528E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB1B0B9718B1A94000B2528E /* Build configuration list for PBXNativeTarget "MyLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +466,7 @@
 				EB1B0B9918B1A94000B2528E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

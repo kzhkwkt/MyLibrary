@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MyLibrary"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of MyLibrary."
   s.license      = 'MIT (example)'
   s.author             = { "kwakata" => "kwakata@sonix.asia" }
@@ -8,6 +8,4 @@ Pod::Spec.new do |s|
 #  s.source_files  = 'MyLibrary/MyLibrary.h, MyLibrary/MyLibrary.m'
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
-
-  s.source_files = '*'
 end
