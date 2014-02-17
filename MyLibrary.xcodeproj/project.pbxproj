@@ -11,8 +11,6 @@
 		EB1B0B6E18B1A94000B2528E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0B6D18B1A94000B2528E /* CoreGraphics.framework */; };
 		EB1B0B7018B1A94000B2528E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0B6F18B1A94000B2528E /* UIKit.framework */; };
 		EB1B0B7618B1A94000B2528E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB1B0B7418B1A94000B2528E /* InfoPlist.strings */; };
-		EB1B0B7818B1A94000B2528E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1B0B7718B1A94000B2528E /* main.m */; };
-		EB1B0B7C18B1A94000B2528E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1B0B7B18B1A94000B2528E /* AppDelegate.m */; };
 		EB1B0B7E18B1A94000B2528E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1B0B7D18B1A94000B2528E /* Images.xcassets */; };
 		EB1B0B8518B1A94000B2528E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0B8418B1A94000B2528E /* XCTest.framework */; };
 		EB1B0B8618B1A94000B2528E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0B6B18B1A94000B2528E /* Foundation.framework */; };
@@ -39,10 +37,7 @@
 		EB1B0B6F18B1A94000B2528E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB1B0B7318B1A94000B2528E /* MyLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLibrary-Info.plist"; sourceTree = "<group>"; };
 		EB1B0B7518B1A94000B2528E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EB1B0B7718B1A94000B2528E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB1B0B7918B1A94000B2528E /* MyLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLibrary-Prefix.pch"; sourceTree = "<group>"; };
-		EB1B0B7A18B1A94000B2528E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EB1B0B7B18B1A94000B2528E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EB1B0B7D18B1A94000B2528E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB1B0B8318B1A94000B2528E /* MyLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1B0B8418B1A94000B2528E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -110,9 +105,8 @@
 		EB1B0B7118B1A94000B2528E /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				EB1B0BA118B1CCA000B2528E /* Classes */,
-				EB1B0B7A18B1A94000B2528E /* AppDelegate.h */,
-				EB1B0B7B18B1A94000B2528E /* AppDelegate.m */,
+				EB1B0B9E18B1CC9600B2528E /* MyLibrary.h */,
+				EB1B0B9F18B1CC9600B2528E /* MyLibrary.m */,
 				EB1B0B7D18B1A94000B2528E /* Images.xcassets */,
 				EB1B0B7218B1A94000B2528E /* Supporting Files */,
 			);
@@ -124,7 +118,6 @@
 			children = (
 				EB1B0B7318B1A94000B2528E /* MyLibrary-Info.plist */,
 				EB1B0B7418B1A94000B2528E /* InfoPlist.strings */,
-				EB1B0B7718B1A94000B2528E /* main.m */,
 				EB1B0B7918B1A94000B2528E /* MyLibrary-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -146,15 +139,6 @@
 				EB1B0B8D18B1A94000B2528E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EB1B0BA118B1CCA000B2528E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EB1B0B9E18B1CC9600B2528E /* MyLibrary.h */,
-				EB1B0B9F18B1CC9600B2528E /* MyLibrary.m */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1B0B7C18B1A94000B2528E /* AppDelegate.m in Sources */,
 				EB1B0BA018B1CC9600B2528E /* MyLibrary.m in Sources */,
-				EB1B0B7818B1A94000B2528E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

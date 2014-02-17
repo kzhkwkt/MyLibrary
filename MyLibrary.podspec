@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT (example)'
   s.author             = { "kwakata" => "kwakata@sonix.asia" }
   s.source       = { :git => "https://github.com/kzhkwkt/MyLibrary.git", :tag => "#{s.version}"}
-  s.source_files  = 'MyLibrary/MyLibrary.{h,m}'
+  s.source_files  = 'MyLibrary'
   s.exclude_files = 'Classes/Exclude'
   s.license = 'MIT'
 end
