@@ -19,6 +19,7 @@
 		EB1B0B8718B1A94000B2528E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B0B6F18B1A94000B2528E /* UIKit.framework */; };
 		EB1B0B8F18B1A94000B2528E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB1B0B8D18B1A94000B2528E /* InfoPlist.strings */; };
 		EB1B0B9118B1A94000B2528E /* MyLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1B0B9018B1A94000B2528E /* MyLibraryTests.m */; };
+		EB1B0B9C18B1ABE300B2528E /* MyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1B0B9B18B1ABE300B2528E /* MyLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		EB1B0B8C18B1A94000B2528E /* MyLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		EB1B0B8E18B1A94000B2528E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB1B0B9018B1A94000B2528E /* MyLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLibraryTests.m; sourceTree = "<group>"; };
+		EB1B0B9A18B1ABE300B2528E /* MyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLibrary.h; sourceTree = "<group>"; };
+		EB1B0B9B18B1ABE300B2528E /* MyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				EB1B0B7B18B1A94000B2528E /* AppDelegate.m */,
 				EB1B0B7D18B1A94000B2528E /* Images.xcassets */,
 				EB1B0B7218B1A94000B2528E /* Supporting Files */,
+				EB1B0B9A18B1ABE300B2528E /* MyLibrary.h */,
+				EB1B0B9B18B1ABE300B2528E /* MyLibrary.m */,
 			);
 			path = MyLibrary;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1B0B7C18B1A94000B2528E /* AppDelegate.m in Sources */,
+				EB1B0B9C18B1ABE300B2528E /* MyLibrary.m in Sources */,
 				EB1B0B7818B1A94000B2528E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
