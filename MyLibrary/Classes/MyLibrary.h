@@ -10,4 +10,5 @@
 
 @interface MyLibrary : NSObject
 
+-(void) test;
 @end

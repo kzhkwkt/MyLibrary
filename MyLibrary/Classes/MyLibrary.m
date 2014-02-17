@@ -10,4 +10,8 @@
 
 @implementation MyLibrary
 
+-(void) test {
+    NSLog(@"This is my library.");
+}
+
 @end
